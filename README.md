@@ -1,4 +1,6 @@
 # Epicture
+
+## Project
 Epicture is a mobile application that allows you to access certain features of your imgur account.
 - Imgur API implementation
 - Authenticate to the Imgur platform
@@ -8,7 +10,11 @@ Epicture is a mobile application that allows you to access certain features of y
 - Manage your favorites
 - Filter the displayed photos
 
-#### Flutter
+This project was a 3rd year EPITECH project and it was made by :
+- Adrian HOARAU (adrian.hoarau@epitech.eu)
+- Arthur BERTAUD (arthur.bertaud@epitech.eu)
+
+## Flutter
 
 Our project is powered by Flutter.
 - To build the project you must have an `android-x86` telephone emulator or a android telephone plugged to your computer.
@@ -17,8 +23,8 @@ Our project is powered by Flutter.
 
 If you're willing to test our project, you might want to run `flutter test test/user_methods_test.dart`.
 
-### User Documentation
-#### Login Phase
+## User Documentation
+### Login Phase
 ![Login](ressources/login.png)
 
 Once you've launched the application, the only thing you can is either login or leave the application.
@@ -28,7 +34,7 @@ Once you've launched the application, the only thing you can is either login or 
 If you've decided to login, you'll have access to the imgur's login portal, so feel free to enter your login details.
 Note that we'll not have access to your details.
 
-#### Menu
+### Menu
 
 ![Menu](ressources/menu.png)
 
@@ -38,19 +44,19 @@ Once you've authenticated, you'll arrive on the menu. It's pretty simple, you've
 - Search
 - Upload
 
-#### Gallery
+### Gallery
 
 ![Gallery](ressources/gallery.png)
 
 The gallery corresponds to your own feed, you'll be able to see all the publications you've uploaded. You also can add in favorite an image with a simple double-click on the image of your choice.
 
-#### Favorites
+### Favorites
 
 ![Favorites](ressources/favorites.png)
 
 The Favorites section gather all the images you've put in favorite.
 
-#### Search
+### Search
 
 ![Pre-search](ressources/pre_search.png)
 
@@ -58,7 +64,7 @@ The Favorites section gather all the images you've put in favorite.
 
 Type something you're looking for, and our search functionality will let you watch all the images corresponding.
 
-#### Upload
+### Upload
 
 ![Pre-upload](ressources/pre_upload.png)
 
@@ -66,6 +72,6 @@ Type something you're looking for, and our search functionality will let you wat
 
 Once you've clicked on the upload button, you're free to select an image from your photos or drive. After that, You'll be able to see this image in your gallery.
 
-#### Logout
+### Logout
 
 When you're done with the application, feel free to logout with the option on the upper right and comeback a next time.
